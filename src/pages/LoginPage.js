@@ -16,7 +16,9 @@ function LoginPage() {
   return (
     <section className="login-page">
       <header className="login-page__hero">
-        <h1><IoEarthOutline /></h1>
+        <h1>
+          <IoEarthOutline />
+        </h1>
       </header>
       <article className="login-page__main">
         <h2>
@@ -26,7 +28,7 @@ function LoginPage() {
           ,
           {' '}
           <br />
-          Through Open Space.
+          Through Open Space App.
         </h2>
 
         <LoginInput login={onLogin} />
